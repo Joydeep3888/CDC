@@ -1,0 +1,120 @@
+CREATE TABLE joydeep_pyspark.Persons (
+    PersonID int,
+    FullName varchar(255),
+    City varchar(255),
+    PRIMARY KEY (PersonID)
+);
+INSERT INTO joydeep_pyspark.Persons VALUES (0,'Herman Zimmerman','Oklahoma City');
+INSERT INTO joydeep_pyspark.Persons VALUES (1,'Lisa Ray','Columbus');
+INSERT INTO joydeep_pyspark.Persons VALUES (2,'Terrell Reeves','Jacksonville');
+INSERT INTO joydeep_pyspark.Persons VALUES (3,'Steve Goodwin','Charlotte');
+INSERT INTO joydeep_pyspark.Persons VALUES (4,'Leah Tran','Detroit');
+INSERT INTO joydeep_pyspark.Persons VALUES (5,'Wilbert Holmes','Washington');
+INSERT INTO joydeep_pyspark.Persons VALUES (6,'Mindy George','Los Angeles');
+INSERT INTO joydeep_pyspark.Persons VALUES (7,'Rosa Huff','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (8,'Clayton Jennings','Denver');
+INSERT INTO joydeep_pyspark.Persons VALUES (9,'Darla Hayes','Charlotte');
+INSERT INTO joydeep_pyspark.Persons VALUES (10,'Jack Hicks','Houston');
+INSERT INTO joydeep_pyspark.Persons VALUES (11,'Francis Davidson','Austin');
+INSERT INTO joydeep_pyspark.Persons VALUES (12,'Jerome Padilla','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (13,'Mamie Duncan','Houston');
+INSERT INTO joydeep_pyspark.Persons VALUES (14,'Julia Cain','San Jose');
+INSERT INTO joydeep_pyspark.Persons VALUES (15,'Leslie Klein','Seattle');
+INSERT INTO joydeep_pyspark.Persons VALUES (16,'Isaac Bridges','Philadelphia');
+INSERT INTO joydeep_pyspark.Persons VALUES (17,'Martin Adkins','Chicago');
+INSERT INTO joydeep_pyspark.Persons VALUES (18,'Vincent Perry','Detroit');
+INSERT INTO joydeep_pyspark.Persons VALUES (19,'William Porter','Fort Worth');
+INSERT INTO joydeep_pyspark.Persons VALUES (20,'Domingo Byrd','Charlotte');
+INSERT INTO joydeep_pyspark.Persons VALUES (21,'Leslie Torres','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (22,'Wanda Morrison','El Paso');
+INSERT INTO joydeep_pyspark.Persons VALUES (23,'Gwen Caldwell','Indianapolis');
+INSERT INTO joydeep_pyspark.Persons VALUES (24,'Tammy Daniels','Indianapolis');
+INSERT INTO joydeep_pyspark.Persons VALUES (25,'Claude Gilbert','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (26,'Monique Bowers','Seattle');
+INSERT INTO joydeep_pyspark.Persons VALUES (27,'Virginia Phillips','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (28,'Norman Graham','Columbus');
+INSERT INTO joydeep_pyspark.Persons VALUES (29,'Gerard Fleming','San Jose');
+INSERT INTO joydeep_pyspark.Persons VALUES (30,'Miranda Conner','Washington');
+INSERT INTO joydeep_pyspark.Persons VALUES (31,'Alicia Mcdaniel','Indianapolis');
+INSERT INTO joydeep_pyspark.Persons VALUES (32,'Miriam Erickson','Dallas');
+INSERT INTO joydeep_pyspark.Persons VALUES (33,'Tyrone Hughes','Houston');
+INSERT INTO joydeep_pyspark.Persons VALUES (34,'Peter Terry','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (35,'Julie Boone','Jacksonville');
+INSERT INTO joydeep_pyspark.Persons VALUES (36,'Josephine Sherman','Boston');
+INSERT INTO joydeep_pyspark.Persons VALUES (37,'Bridget Stevenson','Dallas');
+INSERT INTO joydeep_pyspark.Persons VALUES (38,'Dave Thomas','San Antonio');
+INSERT INTO joydeep_pyspark.Persons VALUES (39,'Francisco Holland','Indianapolis');
+INSERT INTO joydeep_pyspark.Persons VALUES (40,'Garrett Hogan','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (41,'Verna Abbott','El Paso');
+INSERT INTO joydeep_pyspark.Persons VALUES (42,'Mona Rios','Portland');
+INSERT INTO joydeep_pyspark.Persons VALUES (43,'Tara Glover','Dallas');
+INSERT INTO joydeep_pyspark.Persons VALUES (44,'Levi Arnold','Denver');
+INSERT INTO joydeep_pyspark.Persons VALUES (45,'Jasmine Gutierrez','San Jose');
+INSERT INTO joydeep_pyspark.Persons VALUES (46,'Abraham Ortega','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (47,'Heidi Ellis','Columbus');
+INSERT INTO joydeep_pyspark.Persons VALUES (48,'Nathaniel Morales','Washington');
+INSERT INTO joydeep_pyspark.Persons VALUES (49,'Stephen Harvey','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (50,'Kimberly Jordan','El Paso');
+INSERT INTO joydeep_pyspark.Persons VALUES (51,'Jessie Carson','Nashville-Davidson');
+INSERT INTO joydeep_pyspark.Persons VALUES (52,'Juan West','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (53,'Ernestine Cummings','Columbus');
+INSERT INTO joydeep_pyspark.Persons VALUES (54,'Oscar Wolfe','San Antonio');
+INSERT INTO joydeep_pyspark.Persons VALUES (55,'Evan Smith','San Antonio');
+INSERT INTO joydeep_pyspark.Persons VALUES (56,'Regina Garrett','Seattle');
+INSERT INTO joydeep_pyspark.Persons VALUES (57,'Daisy Dixon','Detroit');
+INSERT INTO joydeep_pyspark.Persons VALUES (58,'Warren Cross','Jacksonville');
+INSERT INTO joydeep_pyspark.Persons VALUES (59,'Inez Mcgee','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (60,'Ellis Pena','Philadelphia');
+INSERT INTO joydeep_pyspark.Persons VALUES (61,'Lois Parker','Fort Worth');
+INSERT INTO joydeep_pyspark.Persons VALUES (62,'Charlene King','Portland');
+INSERT INTO joydeep_pyspark.Persons VALUES (63,'Olga Luna','Oklahoma City');
+INSERT INTO joydeep_pyspark.Persons VALUES (64,'Maria Jenkins','Nashville-Davidson');
+INSERT INTO joydeep_pyspark.Persons VALUES (65,'Phyllis Scott','Washington');
+INSERT INTO joydeep_pyspark.Persons VALUES (66,'Sean Palmer','Detroit');
+INSERT INTO joydeep_pyspark.Persons VALUES (67,'Carroll Weber','Oklahoma City');
+INSERT INTO joydeep_pyspark.Persons VALUES (68,'Dorothy Hudson','Nashville-Davidson');
+INSERT INTO joydeep_pyspark.Persons VALUES (69,'Maurice Chandler','Boston');
+INSERT INTO joydeep_pyspark.Persons VALUES (70,'Lloyd Cruz','Seattle');
+INSERT INTO joydeep_pyspark.Persons VALUES (71,'Christian Stanley','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (72,'Emma Carter','San Diego');
+INSERT INTO joydeep_pyspark.Persons VALUES (73,'Oliver Figueroa','Austin');
+INSERT INTO joydeep_pyspark.Persons VALUES (74,'Bessie Kelly','Philadelphia');
+INSERT INTO joydeep_pyspark.Persons VALUES (75,'Malcolm Nelson','Boston');
+INSERT INTO joydeep_pyspark.Persons VALUES (76,'Rick Gibson','Houston');
+INSERT INTO joydeep_pyspark.Persons VALUES (77,'Geraldine Mendez','Jacksonville');
+INSERT INTO joydeep_pyspark.Persons VALUES (78,'Sharon Weaver','Denver');
+INSERT INTO joydeep_pyspark.Persons VALUES (79,'Jerry Cox','Indianapolis');
+INSERT INTO joydeep_pyspark.Persons VALUES (80,'Ray Bowman','Philadelphia');
+INSERT INTO joydeep_pyspark.Persons VALUES (81,'Samantha Myers','Austin');
+INSERT INTO joydeep_pyspark.Persons VALUES (82,'Jesus Pierce','Oklahoma City');
+INSERT INTO joydeep_pyspark.Persons VALUES (83,'Pearl Jacobs','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (84,'Clara Barnett','Los Angeles');
+INSERT INTO joydeep_pyspark.Persons VALUES (85,'Ronald Shaw','Columbus');
+INSERT INTO joydeep_pyspark.Persons VALUES (86,'Christine Quinn','Jacksonville');
+INSERT INTO joydeep_pyspark.Persons VALUES (87,'Alton Elliott','Philadelphia');
+INSERT INTO joydeep_pyspark.Persons VALUES (88,'Krystal Moreno','San Jose');
+INSERT INTO joydeep_pyspark.Persons VALUES (89,'Rhonda Owens','Seattle');
+INSERT INTO joydeep_pyspark.Persons VALUES (90,'Katie Robbins','Phoenix');
+INSERT INTO joydeep_pyspark.Persons VALUES (91,'Jeremy Chapman','Portland');
+INSERT INTO joydeep_pyspark.Persons VALUES (92,'Douglas Young','New York');
+INSERT INTO joydeep_pyspark.Persons VALUES (93,'Kate Mcbride','Chicago');
+INSERT INTO joydeep_pyspark.Persons VALUES (94,'Jackie Mckenzie','Washington');
+INSERT INTO joydeep_pyspark.Persons VALUES (95,'Debbie Keller','Jacksonville');
+INSERT INTO joydeep_pyspark.Persons VALUES (96,'Pam Casey','Las Vegas');
+INSERT INTO joydeep_pyspark.Persons VALUES (97,'Emily Coleman','Portland');
+INSERT INTO joydeep_pyspark.Persons VALUES (98,'Terence Ross','Detroit');
+INSERT INTO joydeep_pyspark.Persons VALUES (99,'Lorene Peterson','San Francisco');
+INSERT INTO joydeep_pyspark.Persons VALUES (100,'Muhammad Ahnmad','New York');
+
+Select * from joydeep_pyspark.Persons where City like "Denver";
+
+
+
+///////////////////// Commands for CDC
+Select * from joydeep_pyspark.Persons
+update joydeep_pyspark.Persons set FullName = 'ABC XYZ' where PersonId = 7;
+INSERT INTO joydeep_pyspark.Persons VALUES (130,'Alica Bing','New York');
+INSERT INTO joydeep_pyspark.Persons VALUES (131,'Malinda Bing','Detroit');
+INSERT INTO joydeep_pyspark.Persons VALUES (132,'Chandler Bing','Portland');
+update joydeep_pyspark.Persons set FullName = 'ABC XYZ' where PersonId = 8;
+DELETE FROM joydeep_pyspark.Persons where PersonId = 10;
