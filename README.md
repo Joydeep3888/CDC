@@ -10,6 +10,6 @@ In this project i have developed a complete end to end CDC pipeline where we do 
 
 Note: The temporary S3 will trigger the lambda function and the lambda function will call the glue job and the glue job wil if a fresh data has been uploaded in temporary s3 and when it is there it will pick that file and do the update in the original dataset and will push it into the destination aka the final S3 bucket.
 
-![alt text](https://github.com/Joydeep3888/CDC/blob/main/Architecture.jpg, "The CDC pipeline architecture")
+![The CDC pipeline architecture](https://github.com/Joydeep3888/CDC/blob/main/Architecture.jpg)
 
 
